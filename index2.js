@@ -1,4 +1,4 @@
-//Problema 3: Registro de asistencias e inacistencias, y se acepta solo un 10% de inacistencias.
+//Problema 2: Registro de asistencias e inacistencias, y se acepta solo un 10% de inacistencias.
 
 let cantidad = prompt("¿Cuántos alumnos son?");
 let alumnosTotales = [];

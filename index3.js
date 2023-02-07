@@ -1,15 +1,15 @@
-//Problema 4: Generar una calculadora que facilite el trabajo.
+//Problema 3: Generar una calculadora que facilite el trabajo.
 
-const sumar = (num1,num2)=>{
+function sumar(num1,num2) {
     return parseInt(num1) + parseInt(num2);
 }
-const restar = (num1,num2)=>{
+function restar(num1,num2) {
     return parseInt(num1) - parseInt(num2);
 }
-const dividir = (num1,num2)=>{
+function dividir(num1,num2) {
     return parseInt(num1) / parseInt(num2);
 }
-const multiplicar = (num1,num2)=>{
+function multiplicar(num1,num2) {
     return parseInt(num1) * parseInt(num2);
 }
 

@@ -1,4 +1,4 @@
-//Problema 1: Saber cuanto dinero tiene cada uno y sugerir el helado mas caro al alcance del dinero que tienen y que tambien diga el dinero que sobra.
+//Problema 0: Saber cuanto dinero tiene cada uno y sugerir el helado mas caro al alcance del dinero que tienen y que tambien diga el dinero que sobra.
 
 let dineroJuan = prompt("¿Cuánto dinero tienes Juan?");
 let dineroPedro = prompt("¿Cuánto dinero tienes Pedro?");

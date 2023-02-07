@@ -1,4 +1,4 @@
-//Problema 2: Entrada permitida solo para mayores de edad y pagas tu entrada dependiendo de la hora 
+//Problema 1: Entrada permitida solo para mayores de edad y pagas tu entrada dependiendo de la hora 
 
 let free = false;
 

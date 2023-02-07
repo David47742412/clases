@@ -1,4 +1,4 @@
-//POO Problema 5: 
+//POO Problema 4: 
 
 class Celular {
     constructor(color, peso, tamaño, rdc, ram){

@@ -1,4 +1,4 @@
-//Problema 6: 
+//Problema 5: 
 
 class App {
     constructor(descargas,puntuacion, peso){
