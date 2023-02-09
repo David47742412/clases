@@ -30,12 +30,40 @@ const calculadora = new Calculadora();
 alert("¿Qué operación deseas realizar?");
 let operacion = prompt("1: suma, 2: resta, 3: división, 4: multiplicación, 5: exponente, 6: raíz cuadrada, 7: raíz cúbica");
 
-if (operacion == 1) {
-    let numero1 = prompt("Primer número para sumar");
-    let numero2 = prompt("Segundo número para sumar");
-    resultado = calculadora.sumar(numero1,numero2);
-    alert(`Tu resultado es ${resultado}`);
+//let numero1 = prompt("Primer número para sumar");
+//let numero2 = prompt("Segundo número para sumar");
+
+const result = (operacion) => {
+    switch (parseInt(operacion)) {
+        case 1:
+            let numerosSumas = 0;
+            let contador = 1;
+            while (true) {
+                let dato = prompt(`Ingrese el Numero ${contador++}: (Presione 0 para culminar)`);
+                try {
+                    console.log(typeof (dato)); // "dasdasdas2"
+                    dato = parseInt(dato); // "adsdas"
+                    console.log(typeof (dato));
+                    if (dato === 0)
+                        break;
+                    numerosSumas += dato;
+
+                } catch (e) {
+                    console.log("\nTipo de Dato No Aceptado\n" + e.message);
+                }
+            }
+            alert(`Tu resultado es ${numerosSumas}`);
+            break;
+        case 2:
+    }
 }
+
+if (parseInt(operacion) === 1) {
+    console.log("Mensaje");
+    result(operacion);
+    console.log("Mensaje 2");
+}
+
 else if (operacion == 2) {
     let numero1 = prompt("Primer número para restar");
     let numero2 = prompt("Segundo número para restar");
