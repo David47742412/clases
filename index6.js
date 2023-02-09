@@ -59,11 +59,9 @@ const result = (operacion) => {
 }
 
 if (parseInt(operacion) === 1) {
-    let numero1 = prompt("Primer número para sumar");
-    let numero2 = prompt("Segundo número para sumar");
-    resultado = calculadora.sumar(numero1,numero2);
-    alert(`Tu resultado es ${resultado}`);
+    result(operacion);
 }
+
 else if (operacion == 2) {
     let numero1 = prompt("Primer número para restar");
     let numero2 = prompt("Segundo número para restar");
