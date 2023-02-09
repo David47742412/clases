@@ -34,11 +34,11 @@ let operacion = prompt("1: suma, 2: resta, 3: división, 4: multiplicación, 5: 
 //let numero2 = prompt("Segundo número para sumar");
 
 const result = (operacion) => {
-    switch (parseInt(operacion)) {
+    switch (operacion) {
         case 1:
             let numerosSumas = 0;
-            let contador = 1;
             while (true) {
+                let contador = 1;
                 let dato = prompt(`Ingrese el Numero ${contador++}: (Presione 0 para culminar)`);
                 try {
                     console.log(typeof (dato)); // "dasdasdas2"
@@ -62,6 +62,7 @@ if (parseInt(operacion) === 1) {
     console.log("Mensaje");
     result(operacion);
     console.log("Mensaje 2");
+    result(operacion);
 }
 
 else if (operacion == 2) {
